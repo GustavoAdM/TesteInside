@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TesteInsideSistemas\\GerenciarPedidos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{404ED52D-6B17-494C-8982-4AC7D1C6868B}|GerenciarPedidos.csproj|d:\\testeinsidesistemas\\gerenciarpedidos\\services\\pedido\\pedidointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{404ED52D-6B17-494C-8982-4AC7D1C6868B}|GerenciarPedidos.csproj|solutionrelative:services\\pedido\\pedidointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{404ED52D-6B17-494C-8982-4AC7D1C6868B}|GerenciarPedidos.csproj|d:\\testeinsidesistemas\\gerenciarpedidos\\services\\pedido\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{404ED52D-6B17-494C-8982-4AC7D1C6868B}|GerenciarPedidos.csproj|solutionrelative:services\\pedido\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{404ED52D-6B17-494C-8982-4AC7D1C6868B}|GerenciarPedidos.csproj|d:\\testeinsidesistemas\\gerenciarpedidos\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{404ED52D-6B17-494C-8982-4AC7D1C6868B}|GerenciarPedidos.csproj|solutionrelative:controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidoInterface.cs",
+              "DocumentMoniker": "D:\\TesteInsideSistemas\\GerenciarPedidos\\Services\\Pedido\\PedidoInterface.cs",
+              "RelativeDocumentMoniker": "Services\\Pedido\\PedidoInterface.cs",
+              "ToolTip": "D:\\TesteInsideSistemas\\GerenciarPedidos\\Services\\Pedido\\PedidoInterface.cs",
+              "RelativeToolTip": "Services\\Pedido\\PedidoInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T18:46:39.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "D:\\TesteInsideSistemas\\GerenciarPedidos\\Services\\Pedido\\PedidoService.cs",
+              "RelativeDocumentMoniker": "Services\\Pedido\\PedidoService.cs",
+              "ToolTip": "D:\\TesteInsideSistemas\\GerenciarPedidos\\Services\\Pedido\\PedidoService.cs",
+              "RelativeToolTip": "Services\\Pedido\\PedidoService.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAA1wHgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T18:46:34.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "D:\\TesteInsideSistemas\\GerenciarPedidos\\Controllers\\PedidoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidoController.cs",
+              "ToolTip": "D:\\TesteInsideSistemas\\GerenciarPedidos\\Controllers\\PedidoController.cs",
+              "RelativeToolTip": "Controllers\\PedidoController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T18:45:40.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

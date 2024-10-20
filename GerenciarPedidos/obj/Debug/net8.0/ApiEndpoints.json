@@ -1,0 +1,178 @@
+[
+  {
+    "ContainingType": "GerenciarPedidos.Controllers.PedidoController",
+    "Method": "BuscarItemPedido",
+    "RelativePath": "api/Pedido/BuscarItemPedido/{IdPedido}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdPedido",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GerenciarPedidos.Models.ResponseModel\u00601[[GerenciarPedidos.DTOs.PedidoComItemDTO, GerenciarPedidos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GerenciarPedidos.Controllers.PedidoController",
+    "Method": "FecharPedido",
+    "RelativePath": "api/Pedido/FecharPedido/{IdPedido}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdPedido",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GerenciarPedidos.Models.ResponseModel\u00601[[GerenciarPedidos.Models.PedidoModel, GerenciarPedidos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GerenciarPedidos.Controllers.PedidoController",
+    "Method": "GerarPedidoComItem",
+    "RelativePath": "api/Pedido/GerarPedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemPedidoNomeDTO",
+        "Type": "GerenciarPedidos.DTOs.ItemPedidoNomeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GerenciarPedidos.Models.ResponseModel\u00601[[GerenciarPedidos.DTOs.PedidoComItemDTO, GerenciarPedidos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GerenciarPedidos.Controllers.PedidoController",
+    "Method": "InserirProduto",
+    "RelativePath": "api/Pedido/InserirProduto/{IdPedido}/{NomeItem}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdPedido",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "NomeItem",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GerenciarPedidos.Models.ResponseModel\u00601[[GerenciarPedidos.Models.ItemPedidoModel, GerenciarPedidos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GerenciarPedidos.Controllers.PedidoController",
+    "Method": "ListarPedido",
+    "RelativePath": "api/Pedido/ListarPedidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Filtro",
+        "Type": "System.Nullable\u00601[[System.Char, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GerenciarPedidos.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[GerenciarPedidos.Models.PedidoModel, GerenciarPedidos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GerenciarPedidos.Controllers.PedidoController",
+    "Method": "RemoverProduto",
+    "RelativePath": "api/Pedido/RemoverProduto/{IdPedido}/{IdProduto}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdPedido",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "IdProduto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GerenciarPedidos.Models.ResponseModel\u00601[[GerenciarPedidos.Models.ItemPedidoModel, GerenciarPedidos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
