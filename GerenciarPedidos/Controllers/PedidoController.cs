@@ -52,14 +52,14 @@ namespace GerenciarPedidos.Controllers
             return Ok(pedidos); 
         }
 
-        [HttpPut("InserirProduto/{IdPedido}/{NomeItem}")]
+        [HttpPost("InserirProduto/{IdPedido}/{NomeItem}")]
         public async Task<ActionResult<ResponseModel<ItemPedidoModel>>> InserirProduto(int IdPedido, string NomeItem)
         {
             var pedidos = await _itempedidointerface.AdicionarItem(IdPedido, NomeItem);
             return Ok(pedidos);
         }
 
-        [HttpPut("RemoverProduto/{IdPedido}/{IdProduto}")]
+        [HttpDelete("RemoverProduto/{IdPedido}/{IdProduto}")]
         public async Task<ActionResult<ResponseModel<ItemPedidoModel>>> RemoverProduto(int IdPedido, int IdProduto)
         {
             var pedidos = await _itempedidointerface.RemoverItem(IdPedido, IdProduto);
